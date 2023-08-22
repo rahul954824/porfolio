@@ -1,0 +1,15 @@
+@use './utils/imports';
+@use './utils/variables';
+@use './utils/mixins';
+
+@use './layout/global';
+
+@use './layout/navbar';
+@use './layout/header';
+@use './layout/main';
+@use './layout/gallery';
+@use './layout/footer';
+@use './layout/skills';
+@use './layout/contact';
+
+@use './utils/keyframes';

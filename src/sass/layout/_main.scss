@@ -1,0 +1,25 @@
+@use '../utils/variables';
+@use '../utils/mixins';
+
+main {
+  max-width: variables.$tablet;
+
+  margin-top: 5rem;
+  padding: 0 1rem;
+
+  article {
+    width: inherit;
+
+    .paragraphWrapper {
+      margin-top: 5rem;
+      width: 100%;
+      p {
+        line-height: 1.4;
+        margin-bottom: 2rem;
+      }
+    }
+    .firstWrapper {
+      margin-top: 2rem;
+    }
+  }
+}
